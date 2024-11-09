@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Online Fitness Training</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Online Fitness Training</h1>
+    <div id="register-form">
+        <h2>Register for a Session</h2>
+        <form action="UserServlet" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+            <button type="submit" name="action" value="register">Register</button>
+        </form>
+    </div>
+</body>
+</html>
